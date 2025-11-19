@@ -1,0 +1,21 @@
+/* Área do letreiro */
+#container {
+    width: 700px;          /* largura da área */
+    height: 120px;         /* altura da área */
+    border: 3px solid #333;
+    margin: 40px auto;     /* centraliza a área na página */
+    overflow: hidden;      /* impede que o texto apareça fora dos limites */
+    padding: 20px;         /* espaço livre ao redor do letreiro */
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;   /* alinhamento vertical do texto */
+    position: relative;
+}
+
+/* Estilo do letreiro */
+#letreiro {
+    font-size: 28px;
+    font-weight: bold;
+    white-space: nowrap;   /* impede quebra de linha */
+    position: absolute;
+}
